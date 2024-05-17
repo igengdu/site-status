@@ -36,11 +36,11 @@ const Footer = () => {
         <p>
           Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.igdux.com/" text="耕读" />
+          <CustomLink to="https://igdux.com/" text="耕读" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
-              <CustomLink to="https://bing.com/" text={siteIcp} />
+              <CustomLink to="https://Chatgpt.com/" text={siteIcp} />
             </React.Fragment>
           ) : null}
         </p>
